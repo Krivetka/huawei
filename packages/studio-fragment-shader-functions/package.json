@@ -1,0 +1,15 @@
+{
+    "name": "studio-fragment-shader-functions",
+    "version": "1.0",
+    "icon": {
+        "uri":"Lume_Icon.svg",
+        "rounded":false
+    },
+    "author": "Lume",
+    "images": [],
+    "description": "A package containing functions that are useful for fragment shaders.",
+    "plugins": [
+        "shader-code/plugin.json"
+    ],
+    "editorplugins": []
+}

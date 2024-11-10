@@ -1,0 +1,113 @@
+{
+    "compatibility_info": {
+        "version": "2.0",
+        "type": "metafile"
+    },
+    "metainfo": {
+        "iid": "9a2384be-d9bc-494e-a7e5-5e8ff842d11e",
+        "uri": "project://assets/shader_blocks/default.ark.glsl",
+        "sha1": "2b150c6e2c745e349bb7a10fdc580786ef195c26",
+        "spec": {
+            "$meta": {
+                "version": "1.0"
+            },
+            "$root": {
+                "$classId": "68089ffa-cefa-11ed-afa1-0242ac120002",
+                "$name": "ShaderCodeAsset",
+                "$instanceId": "0000d9cb-0d4d-1798-8fba-080ce39f62ef",
+                "$properties": {
+                    "Thumbnail": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "MediaType": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "application/vnd.ark.shader-code",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "IsDirty": {
+                        "$classId": "cd2fd49b-c6b0-14bd-5072-6f7065727479",
+                        "value": true,
+                        "defaultValue": true,
+                        "flags": 227
+                    },
+                    "GeneratorSourceUri": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "IsGenerated": {
+                        "$classId": "cd2fd49b-c6b0-14bd-5072-6f7065727479",
+                        "value": false,
+                        "defaultValue": false,
+                        "flags": 235
+                    },
+                    "Iid": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "9a2384be-d9bc-494e-a7e5-5e8ff842d11e",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "Tooltip": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "IsBuiltIn": {
+                        "$classId": "cd2fd49b-c6b0-14bd-5072-6f7065727479",
+                        "value": false,
+                        "defaultValue": false,
+                        "flags": 235
+                    },
+                    "Size": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "Uri": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "project://assets/shader_blocks/default.ark.glsl",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "Category": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "IsValid": {
+                        "$classId": "cd2fd49b-c6b0-14bd-5072-6f7065727479",
+                        "value": true,
+                        "defaultValue": true,
+                        "flags": 235
+                    },
+                    "Name": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "default.ark.glsl",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "ModifiedTimestamp": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "133756347806702841",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "Code": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "// If you want to use a custom function in the shader graph, you can create one by:\r\n//  1. Using the \"Create Custom Function\" functionality from the shader graph editor.\r\n//  2. Create a function manually in a *.ark.glsl file and annotate it with a docstring comment.\r\n//\r\n// Bellow you can find an example of a custom function:\r\n//\r\n//  /**\r\n//   * Describe shortly what this function does\r\n//   * \r\n//   * @displayName Name displayed in UI\r\n//   *\r\n//   * @in  A      - Description of input\r\n//   * @out result - Description of output\r\n//   */\r\n//  fun MyFunction(in float a, out float res) {\r\n//      res = a;\r\n//  }\r\n//\r\n// The shader graph also supports templated fuctions:\r\n// \r\n//  /// Describe shortly what this function does\r\n//  /// \r\n//  /// @displayName Name displayed in UI\r\n//  /// @templateArg T = float | vec2 | vec3 | vec4\r\n//  ///\r\n//  /// @in  A      - Description of input a\r\n//  /// @in  ArgB   - Description of input b\r\n//  /// @out result - Description of output\r\n//  fun MyTemplatedFunction(in T a, in T b, out T res) {\r\n//      res = dot(a, b);\r\n//   }\r\n//\r\n//  For more information, check: <Documentation for shader graph>\r\n\r\n",
+                        "defaultValue": "",
+                        "flags": 227
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "PluginApplication",
+    "version": "1.0",    
+    "icon": {
+        "uri":"Lume_Icon.svg",
+        "rounded":false
+    },
+    "author": "Lume",
+    "description": "Application using the Lume runtime framework.",
+    "depends": [],
+    "assets": [],
+    "uid": "a7b44144-d1b3-4d68-a0ff-ca48a7d015ee",
+    "api": {}
+}

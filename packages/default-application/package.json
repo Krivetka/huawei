@@ -1,0 +1,15 @@
+{
+    "name": "default-application",
+    "version": "1.0",
+    "icon": {
+        "uri":"Lume_Icon.svg",
+        "rounded":false
+    },
+    "author": "Lume",
+    "images": [],
+    "description": "Default application for launching .ui content with the Lume runtime framework",
+    "plugins": [
+        "PluginDefaultApplication/plugin.json"
+    ],
+    "editorplugins": []
+}

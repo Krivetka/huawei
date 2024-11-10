@@ -1,0 +1,88 @@
+{
+  "settings": [
+    {
+      "setting-key": "PaneManagerDock",
+      "setting-val": {
+        "floating-windows": [
+          {
+            "floating-window-resource-uri": "",
+            "floating-window-class-id": "com.huawei.editor.ProjectWindowDockContainer",
+            "floating-window-instance-id": "com.huawei.editor.ProjectWindowDockContainer#bqdhtm0YDd",
+            "floating-window-title": "Project",
+            "floating-window-state": "docked",
+            "panes": [
+              {
+                "pane-class-id": "com.huawei.editor.ProjectPane",
+                "pane-instance-id": "com.huawei.editor.ProjectPane#eP564OhjIr"
+              }
+            ]
+          },
+          {
+            "floating-window-resource-uri": "",
+            "floating-window-class-id": "com.huawei.editor.LogWindowDockContainer",
+            "floating-window-instance-id": "com.huawei.editor.LogWindowDockContainer#CnzWbRqhZq",
+            "floating-window-title": "Log",
+            "floating-window-state": "docked",
+            "panes": [
+              {
+                "pane-class-id": "com.huawei.editor.LogPane",
+                "pane-instance-id": "com.huawei.editor.LogPane#7pjryBkmpd"
+              }
+            ]
+          },
+          {
+            "floating-window-resource-uri": "",
+            "floating-window-class-id": "com.huawei.editor.InspectorWindowDockContainer",
+            "floating-window-instance-id": "com.huawei.editor.InspectorWindowDockContainer#WbHEljiqRa",
+            "floating-window-title": "Properties",
+            "floating-window-state": "docked",
+            "panes": [
+              {
+                "pane-class-id": "com.huawei.editor.InspectorPane",
+                "pane-instance-id": "com.huawei.editor.InspectorPane#30sCQ6uIR5"
+              }
+            ]
+          },
+          {
+            "floating-window-resource-uri": "project://assets/ui/default.ui",
+            "floating-window-class-id": "com.huawei.editor.UIWindowDockContainer",
+            "floating-window-instance-id": "com.huawei.editor.UIWindowDockContainer#EGDLK6OerU",
+            "floating-window-title": "UI [default.ui]",
+            "floating-window-state": "docked",
+            "panes": [
+              {
+                "pane-class-id": "com.huawei.editor.UiHierarchyPane",
+                "pane-instance-id": "com.huawei.editor.UiHierarchyPane#LnR0CGLJGw",
+                "resource-uri": "project://assets/ui/default.ui"
+              },
+              {
+                "pane-class-id": "com.huawei.editor.UiEditorPane",
+                "pane-instance-id": "com.huawei.editor.UiEditorPane#KSNBnZOdzF",
+                "editor-uri": "project://assets/ui/default.ui"
+              }
+            ]
+          }
+        ],
+        "docking-layout": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPFF0QWR2YW5jZWREb2NraW5nU3lzdGVtIFZlcnNpb249IjEiIFVzZXJWZXJzaW9uPSIwIiBDb250YWluZXJzPSIxIiBDZW50cmFsV2lkZ2V0PSJDZW50cmFsV2lkZ2V0Ij4KICAgIDxDb250YWluZXIgRmxvYXRpbmc9IjAiPgogICAgICAgIDxTcGxpdHRlciBPcmllbnRhdGlvbj0iLSIgQ291bnQ9IjIiPgogICAgICAgICAgICA8U3BsaXR0ZXIgT3JpZW50YXRpb249InwiIENvdW50PSIyIj4KICAgICAgICAgICAgICAgIDxBcmVhIFRhYnM9IjIiIEN1cnJlbnQ9ImNvbS5odWF3ZWkuZWRpdG9yLlVJV2luZG93RG9ja0NvbnRhaW5lciNFR0RMSzZPZXJVIiBGbGFncz0iMSI+CiAgICAgICAgICAgICAgICAgICAgPFdpZGdldCBOYW1lPSJDZW50cmFsV2lkZ2V0IiBDbG9zZWQ9IjAiLz4KICAgICAgICAgICAgICAgICAgICA8V2lkZ2V0IE5hbWU9ImNvbS5odWF3ZWkuZWRpdG9yLlVJV2luZG93RG9ja0NvbnRhaW5lciNFR0RMSzZPZXJVIiBDbG9zZWQ9IjAiLz4KICAgICAgICAgICAgICAgIDwvQXJlYT4KICAgICAgICAgICAgICAgIDxBcmVhIFRhYnM9IjEiIEN1cnJlbnQ9ImNvbS5odWF3ZWkuZWRpdG9yLkluc3BlY3RvcldpbmRvd0RvY2tDb250YWluZXIjV2JIRWxqaXFSYSI+CiAgICAgICAgICAgICAgICAgICAgPFdpZGdldCBOYW1lPSJjb20uaHVhd2VpLmVkaXRvci5JbnNwZWN0b3JXaW5kb3dEb2NrQ29udGFpbmVyI1diSEVsamlxUmEiIENsb3NlZD0iMCIvPgogICAgICAgICAgICAgICAgPC9BcmVhPgogICAgICAgICAgICAgICAgPFNpemVzPjEwMDcgNTI1IDwvU2l6ZXM+CiAgICAgICAgICAgIDwvU3BsaXR0ZXI+CiAgICAgICAgICAgIDxBcmVhIFRhYnM9IjIiIEN1cnJlbnQ9ImNvbS5odWF3ZWkuZWRpdG9yLlByb2plY3RXaW5kb3dEb2NrQ29udGFpbmVyI2JxZGh0bTBZRGQiPgogICAgICAgICAgICAgICAgPFdpZGdldCBOYW1lPSJjb20uaHVhd2VpLmVkaXRvci5Qcm9qZWN0V2luZG93RG9ja0NvbnRhaW5lciNicWRodG0wWURkIiBDbG9zZWQ9IjAiLz4KICAgICAgICAgICAgICAgIDxXaWRnZXQgTmFtZT0iY29tLmh1YXdlaS5lZGl0b3IuTG9nV2luZG93RG9ja0NvbnRhaW5lciNDbnpXYlJxaFpxIiBDbG9zZWQ9IjAiLz4KICAgICAgICAgICAgPC9BcmVhPgogICAgICAgICAgICA8U2l6ZXM+NDY0IDI1MyA8L1NpemVzPgogICAgICAgIDwvU3BsaXR0ZXI+CiAgICA8L0NvbnRhaW5lcj4KPC9RdEFkdmFuY2VkRG9ja2luZ1N5c3RlbT4K"
+      }
+    },
+    {
+      "setting-key": "MainWindow",
+      "setting-val": {
+        "size": [
+          1554,
+          882
+        ],
+        "position": [
+          -10,
+          -35
+        ],
+        "maximize": true
+      }
+    }
+  ],
+  "compatibility_info": {
+    "version": "24.1",
+    "type": "workspace"
+  }
+}

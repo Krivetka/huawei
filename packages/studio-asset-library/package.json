@@ -1,0 +1,20 @@
+{
+    "name": "studio-asset-library",
+    "version": "1.3",
+    "icon": {
+        "uri":"Lume_Icon.svg",
+        "rounded":false
+    },
+    "author": "Lume",
+    "images": ["3d/3d_assets.png", "effect/effect_assets.png"],
+    "description": "A package containing some basic re-usable assets",
+    "plugins": [
+        "3d/cube/plugin.json",
+        "3d/sphere/plugin.json",
+        "3d/plane/plugin.json",
+        "effect/reflection_plane/plugin.json",
+        "effect/particles/plugin.json",
+        "environment/dusk/plugin.json"
+    ],
+    "editorplugins": []
+}

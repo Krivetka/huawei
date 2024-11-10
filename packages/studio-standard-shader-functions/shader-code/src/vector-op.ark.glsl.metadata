@@ -1,0 +1,113 @@
+{
+    "compatibility_info": {
+        "version": "2.0",
+        "type": "metafile"
+    },
+    "metainfo": {
+        "iid": "55a1e514-91d8-4f7d-8652-a4acea36661c",
+        "uri": "project://packages/studio-standard-shader-functions/shader-code/src/vector-op.ark.glsl",
+        "sha1": "30a38498343bcf8bc2a91a7761927d9c1d6a0444",
+        "spec": {
+            "$meta": {
+                "version": "1.0"
+            },
+            "$root": {
+                "$classId": "68089ffa-cefa-11ed-afa1-0242ac120002",
+                "$name": "ShaderCodeAsset",
+                "$instanceId": "0000d9cb-17e9-2368-ed3e-746963547fa8",
+                "$properties": {
+                    "Thumbnail": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "MediaType": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "application/vnd.ark.shader-code",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "IsDirty": {
+                        "$classId": "cd2fd49b-c6b0-14bd-5072-6f7065727479",
+                        "value": true,
+                        "defaultValue": true,
+                        "flags": 227
+                    },
+                    "GeneratorSourceUri": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "IsGenerated": {
+                        "$classId": "cd2fd49b-c6b0-14bd-5072-6f7065727479",
+                        "value": false,
+                        "defaultValue": false,
+                        "flags": 235
+                    },
+                    "Iid": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "55a1e514-91d8-4f7d-8652-a4acea36661c",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "Tooltip": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "IsBuiltIn": {
+                        "$classId": "cd2fd49b-c6b0-14bd-5072-6f7065727479",
+                        "value": false,
+                        "defaultValue": false,
+                        "flags": 235
+                    },
+                    "Size": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "Uri": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "project://packages/studio-standard-shader-functions/shader-code/src/vector-op.ark.glsl",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "Category": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "IsValid": {
+                        "$classId": "cd2fd49b-c6b0-14bd-5072-6f7065727479",
+                        "value": true,
+                        "defaultValue": true,
+                        "flags": 235
+                    },
+                    "Name": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "vector-op.ark.glsl",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "ModifiedTimestamp": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "133756347809596627",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "Code": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "\r\n#ifndef VECTOR_OP_BLOCKS_H\r\n#define VECTOR_OP_BLOCKS_H\r\n\r\n/**\r\n * Returns the length of a vector.\r\n *\r\n * @displayName Vector Length\r\n * @in v - The vector to calculate the length of.\r\n * @out result - The length of the vector.\r\n * @templateArg T = vec2 | vec3 | vec4\r\n */\r\nvoid VecLengthBlock(in T v, out float result)\r\n{\r\n    result = length(v);\r\n}\r\n\r\n/**\r\n * Returns the squared length of a vector. This function avoids calculating a square root, so it is much more efficient\r\n * if you only need to compare lengths.\r\n *\r\n * @displayName Vector Length Squared\r\n * @in v - The vector to calculate the squared length of.\r\n * @out result - The squared length of the vector.\r\n * @templateArg T = vec2 | vec3 | vec4\r\n */\r\nvoid VecLengthSquaredBlock(in T v, out float result)\r\n{\r\n    result = dot(v, v);\r\n}\r\n\r\n/**\r\n * Returns a vector in the same direction as the input vector but with a length of 1. The input vector should not be\r\n * the zero vector.\r\n *\r\n * @displayName Normalize\r\n * @in v - The vector to normalize. Should not be the zero vector.\r\n * @out result - The normalized vector.\r\n * @templateArg T = vec2 | vec3 | vec4\r\n */\r\nvoid VecNormalizeBlock(in T v, out T result)\r\n{\r\n    result = normalize(v);\r\n}\r\n\r\n/**\r\n * Returns the distance between two vectors.\r\n *\r\n * @displayName Distance\r\n * @in u - The first vector.\r\n * @in v - The second vector.\r\n * @out result - The distance between the two vectors u and v.\r\n * @templateArg T = vec2 | vec3 | vec4\r\n */\r\nvoid VecDistanceBlock(in T u, in T v, out float result)\r\n{\r\n    result = distance(u, v);\r\n}\r\n\r\n/**\r\n * Returns the squared distance between two vectors. This function avoids calculating the square root, so it is much\r\n * more efficient.\r\n *\r\n * @displayName Distance Squared\r\n * @in u - The first vector.\r\n * @in v - The second vector.\r\n * @out result - The squared distance between the two vectors u and v.\r\n * @templateArg T = vec2 | vec3 | vec4\r\n *\r\n */\r\nvoid VecDistanceSquaredBlock(in T u, in T v, out float result)\r\n{\r\n    result = dot(u - v, u - v);\r\n}\r\n\r\n/**\r\n * Returns the reflection of the incident vector off a surface with the specified normal.\r\n *\r\n * @displayName Reflect\r\n * @in I - The incident vector.\r\n * @in N - The normal of the reflecting surface.\r\n * @out result - The reflected vector.\r\n * @templateArg T = vec2 | vec3 | vec4\r\n */\r\nvoid VecReflectBlock(in T I, in T N, out T result)\r\n{\r\n    result = reflect(I, N);\r\n}\r\n\r\n/**\r\n * Returns the refraction vector of an incident vector I incident on a surface with the specified normal N and the ratio\r\n * of indices of refraction (\u03B7).\r\n *\r\n * @displayName Refract\r\n * @in I - The incident vector.\r\n * @in N - The normal of the refracting surface.\r\n * @in \u03B7 - The ratio of indices of refraction (eta).\r\n * @out result - The refracted vector.\r\n * @templateArg T = vec2 | vec3 | vec4\r\n */\r\nvoid VecRefractBlock(in T I, in T N, in float eta, out T result)\r\n{\r\n    result = refract(I, N, eta);\r\n}\r\n\r\n/**\r\n * Returns the dot product of the given vectors. This is calculated as the sum of the products of the two\r\n * vectors' corresponding components: `u\u00B7v = u.x\u00B7v.x + u.y\u00B7v.y + ...`.\r\n *\r\n * @displayName Dot Product\r\n * @in u - The first vector.\r\n * @in v - The second vector.\r\n * @out result - The dot product of the two vectors u and v.\r\n * @templateArg T = vec2 | vec3 | vec4\r\n *\r\n */\r\nvoid VecDotBlock(in T A, in T B, out float result)\r\n{\r\n    result = dot(A, B);\r\n}\r\n\r\n/**\r\n * Returns the angle in radians between the vector and the positive X axis. The result is in the range [-\u03C0, \u03C0].\r\n *\r\n * @displayName ATan2\r\n * @in v - The 2d vector to get the angle of. If the coordinates are (0, 0), the result is undefined.\r\n * @out angle - The angle in radians between the vector and the positive X axis.\r\n */\r\nvoid Atan2Block(in vec2 A, out float result)\r\n{\r\n    result = atan(A.y, A.x);\r\n}\r\n\r\n/**\r\n * Returns the cross product of the given vectors. The cross product is a vector perpendicular to both u and v.\r\n *\r\n * @displayName Cross Product\r\n * @in u - The first vector.\r\n * @in v - The second vector.\r\n * @out result - The cross product of the vectors u and v.\r\n */\r\nvoid CrossProductBlock(in vec3 A, in vec3 B, out vec3 result)\r\n{\r\n    result = cross(A, B);\r\n}\r\n\r\n/**\r\n * Constructs a vec2 from the given components. [DEPRECATED]. Use attached constant blocks or drop down the node inputs\r\n * instead.\r\n *\r\n * @displayName Construct Vec2\r\n * @in x - The x component of the vector.\r\n * @in y - The y component of the vector.\r\n * @out result - The constructed vector.\r\n */\r\n    void Vec2SwizzleBlock(in float x, in float y, out vec2 result)\r\n{\r\n    result = vec2(x, y);\r\n}\r\n\r\n/**\r\n * Constructs a vec3 from the given components. [DEPRECATED]. Use attached constant blocks or drop down the node inputs\r\n * instead.\r\n *\r\n * @displayName Construct Vec3\r\n * @in x - The x component of the vector.\r\n * @in y - The y component of the vector.\r\n * @in z - The z component of the vector.\r\n * @out result - The constructed vector.\r\n */\r\nvoid Vec3SwizzleBlock(in float x, in float y, in float z, out vec3 result)\r\n{\r\n    result = vec3(x, y, z);\r\n}\r\n\r\n/**\r\n * Constructs a vec4 from the given components. [DEPRECATED]. Use attached constant blocks or drop down the node inputs\r\n * instead.\r\n *\r\n * @displayName Construct Vec4\r\n * @in x - The x component of the vector.\r\n * @in y - The y component of the vector.\r\n * @in z - The z component of the vector.\r\n * @in w - The w component of the vector.\r\n * @out result - The constructed vector.\r\n */\r\nvoid Vec4SwizzleBlock(in float x, in float y, in float z, in float w, out vec4 result)\r\n{\r\n    result = vec4(x, y, z, w);\r\n}\r\n\r\n#endif // VECTOR_OP_BLOCKS_H\r\n",
+                        "defaultValue": "",
+                        "flags": 227
+                    }
+                }
+            }
+        }
+    }
+}

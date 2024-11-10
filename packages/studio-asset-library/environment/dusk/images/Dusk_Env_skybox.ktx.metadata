@@ -1,0 +1,125 @@
+{
+    "compatibility_info": {
+        "version": "2.0",
+        "type": "metafile"
+    },
+    "metainfo": {
+        "iid": "a8185f27-fb9d-4fae-948f-c4d613c869d0",
+        "uri": "project://packages/studio-asset-library/environment/dusk/images/Dusk_Env_skybox.ktx",
+        "sha1": "e19a074c22d9f9a184e1b152c17d150709e86a03",
+        "spec": {
+            "$meta": {
+                "version": "1.0"
+            },
+            "$root": {
+                "$classId": "12708a3c-ff66-4ead-acbf-58d0a16db05e",
+                "$name": "ImageAsset",
+                "$instanceId": "0000d9cb-110c-4d04-791d-dd01bf7ab971",
+                "$properties": {
+                    "Thumbnail": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "MediaType": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "image/ktx",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "GeneratorSourceUri": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "TargetFormat": {
+                        "$classId": "b6a8d81c-22be-419c-5072-6f7065727479",
+                        "value": 0,
+                        "defaultValue": 0,
+                        "flags": 227
+                    },
+                    "IsGenerated": {
+                        "$classId": "cd2fd49b-c6b0-14bd-5072-6f7065727479",
+                        "value": false,
+                        "defaultValue": false,
+                        "flags": 235
+                    },
+                    "Iid": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "a8185f27-fb9d-4fae-948f-c4d613c869d0",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "Tooltip": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "IsBuiltIn": {
+                        "$classId": "cd2fd49b-c6b0-14bd-5072-6f7065727479",
+                        "value": false,
+                        "defaultValue": false,
+                        "flags": 235
+                    },
+                    "Size": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "Uri": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "project://packages/studio-asset-library/environment/dusk/images/Dusk_Env_skybox.ktx",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "Category": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "IsValid": {
+                        "$classId": "cd2fd49b-c6b0-14bd-5072-6f7065727479",
+                        "value": true,
+                        "defaultValue": true,
+                        "flags": 235
+                    },
+                    "Compression": {
+                        "$classId": "b6a8d81c-22be-419c-5072-6f7065727479",
+                        "value": 0,
+                        "defaultValue": 0,
+                        "flags": 227
+                    },
+                    "Name": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "Dusk_Env_skybox.ktx",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "ModifiedTimestamp": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "133756347810174772",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "Height": {
+                        "$classId": "b6a8d81c-22be-419c-5072-6f7065727479",
+                        "value": 512,
+                        "defaultValue": 0,
+                        "flags": 227
+                    },
+                    "Width": {
+                        "$classId": "b6a8d81c-22be-419c-5072-6f7065727479",
+                        "value": 512,
+                        "defaultValue": 0,
+                        "flags": 227
+                    }
+                }
+            }
+        }
+    }
+}

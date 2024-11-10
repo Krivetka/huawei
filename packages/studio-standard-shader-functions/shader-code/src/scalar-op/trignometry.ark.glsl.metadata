@@ -1,0 +1,113 @@
+{
+    "compatibility_info": {
+        "version": "2.0",
+        "type": "metafile"
+    },
+    "metainfo": {
+        "iid": "11d5ffd7-af01-4c4a-8003-98fb858b64be",
+        "uri": "project://packages/studio-standard-shader-functions/shader-code/src/scalar-op/trignometry.ark.glsl",
+        "sha1": "6aeaca6dbbfe6a9e5ec97d5d0759980968761935",
+        "spec": {
+            "$meta": {
+                "version": "1.0"
+            },
+            "$root": {
+                "$classId": "68089ffa-cefa-11ed-afa1-0242ac120002",
+                "$name": "ShaderCodeAsset",
+                "$instanceId": "0000d9cb-17d5-1698-02eb-9848fafca07b",
+                "$properties": {
+                    "Thumbnail": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "MediaType": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "application/vnd.ark.shader-code",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "IsDirty": {
+                        "$classId": "cd2fd49b-c6b0-14bd-5072-6f7065727479",
+                        "value": true,
+                        "defaultValue": true,
+                        "flags": 227
+                    },
+                    "GeneratorSourceUri": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "IsGenerated": {
+                        "$classId": "cd2fd49b-c6b0-14bd-5072-6f7065727479",
+                        "value": false,
+                        "defaultValue": false,
+                        "flags": 235
+                    },
+                    "Iid": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "11d5ffd7-af01-4c4a-8003-98fb858b64be",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "Tooltip": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "IsBuiltIn": {
+                        "$classId": "cd2fd49b-c6b0-14bd-5072-6f7065727479",
+                        "value": false,
+                        "defaultValue": false,
+                        "flags": 235
+                    },
+                    "Size": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "Uri": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "project://packages/studio-standard-shader-functions/shader-code/src/scalar-op/trignometry.ark.glsl",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "Category": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "IsValid": {
+                        "$classId": "cd2fd49b-c6b0-14bd-5072-6f7065727479",
+                        "value": true,
+                        "defaultValue": true,
+                        "flags": 235
+                    },
+                    "Name": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "trignometry.ark.glsl",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "ModifiedTimestamp": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "133756347809458617",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "Code": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "#ifndef TRIGONOMETRY_BLOCKS_H\r\n#define TRIGONOMETRY_BLOCKS_H\r\n\r\n///******************************************************\r\n// * Trigonometric functions\r\n// ******************************************************/\r\n\r\n/**\r\n * Returns the sine of the input value (component-wise).\r\n *\r\n * @displayName Sin\r\n * @in x - The angle(s) in radians to calculate the sine of.\r\n * @out result - The result(s) of the sine function (between -1 and 1).\r\n * @templateArg T = float | vec2 | vec3 | vec4\r\n */\r\nvoid SinBlock(in T x, out T result)\r\n{\r\n    result = sin(x);\r\n}\r\n\r\n/**\r\n * Returns the cosine of the input value (component-wise).\r\n *\r\n * @displayName Cos\r\n * @in x - The angle(s) in radians to calculate the cosine of.\r\n * @out result - The result(s) of the cosine function (between -1 and 1).\r\n * @templateArg T = float | vec2 | vec3 | vec4\r\n */\r\nvoid CosBlock(in T x, out T result)\r\n{\r\n    result = cos(x);\r\n}\r\n\r\n/**\r\n * Returns the tangent of the input value (component-wise).\r\n *\r\n * @displayName Tan\r\n * @in x - The angle(s) in radians to calculate the tangent of.\r\n * @out result - The result(s) of the tangent function.\r\n * @templateArg T = float | vec2 | vec3 | vec4\r\n */\r\nvoid TanBlock(in T x, out T result)\r\n{\r\n    result = tan(x);\r\n}\r\n\r\n/**\r\n * Returns the angle whose sine is the input value (component-wise).\r\n *\r\n * @displayName ArcSin\r\n * @in x - The value(s) to calculate the arc sine of.\r\n * @out result - The result(s) of the arc sine function in radians.\r\n * @templateArg T = float | vec2 | vec3 | vec4\r\n */\r\nvoid ASinBlock(in T x, out T result)\r\n{\r\n    result = asin(x);\r\n}\r\n\r\n/**\r\n * Returns the angle whose cosine is the input value (component-wise).\r\n *\r\n * @displayName ArcCos\r\n * @in x - The value(s) to calculate the arc cosine of.\r\n * @out result - The result(s) of the arc cosine function in radians.\r\n * @templateArg T = float | vec2 | vec3 | vec4\r\n */\r\nvoid ACosBlock(in T x, out T result)\r\n{\r\n    result = acos(x);\r\n}\r\n\r\n/**\r\n * Returns the angle whose tangent is the input value (component-wise).\r\n *\r\n * @displayName ArcTan\r\n * @in x - The value(s) to calculate the arc tangent of.\r\n * @out result - The result(s) of the arc tangent function in radians.\r\n * @templateArg T = float | vec2 | vec3 | vec4\r\n */\r\nvoid ATanBlock(in T x, out T result)\r\n{\r\n    result = atan(x);\r\n}\r\n\r\n/**\r\n * Returns the hyperbolic sine of the input value (component-wise).\r\n *\r\n * @displayName SinH\r\n * @in x - The value(s) to calculate the hyperbolic sine of.\r\n * @out result - The result(s) of the hyperbolic sine function.\r\n * @templateArg T = float | vec2 | vec3 | vec4\r\n */\r\nvoid SinHBlock(in T x, out T result)\r\n{\r\n    result = sinh(x);\r\n}\r\n\r\n/**\r\n * Returns the hyperbolic cosine of the input value (component-wise).\r\n *\r\n * @displayName CosH\r\n * @in x - The value(s) to calculate the hyperbolic cosine of.\r\n * @out result - The result(s) of the hyperbolic cosine function.\r\n * @templateArg T = float | vec2 | vec3 | vec4\r\n */\r\nvoid CosHBlock(in T x, out T result)\r\n{\r\n    result = cosh(x);\r\n}\r\n\r\n/**\r\n * Returns the hyperbolic tangent of the input value (component-wise).\r\n *\r\n * @displayName TanH\r\n * @in x - The value(s) to calculate the hyperbolic tangent of.\r\n * @out result - The result(s) of the hyperbolic tangent function.\r\n * @templateArg T = float | vec2 | vec3 | vec4\r\n */\r\nvoid TanHBlock(in T x, out T result)\r\n{\r\n    result = tanh(x);\r\n}\r\n\r\n/**\r\n * Returns the angle whose hyperbolic sine is the input value (component-wise).\r\n *\r\n * @displayName ArcSinH\r\n * @in x - The value(s) to calculate the arc hyperbolic sine of.\r\n * @out result - The result(s) of the arc hyperbolic sine function in radians.\r\n * @templateArg T = float | vec2 | vec3 | vec4\r\n */\r\nvoid ASinHBlock(in T x, out T result)\r\n{\r\n    result = asinh(x);\r\n}\r\n\r\n/**\r\n * Returns the angle whose hyperbolic cosine is the input value (component-wise).\r\n *\r\n * @displayName ArcCosH\r\n * @in x - The value(s) to calculate the arc hyperbolic cosine of.\r\n * @out result - The result(s) of the arc hyperbolic cosine function in radians.\r\n * @templateArg T = float | vec2 | vec3 | vec4\r\n */\r\nvoid ACosHBlock(in T x, out T result)\r\n{\r\n    result = acosh(x);\r\n}\r\n\r\n/**\r\n * Returns the angle whose hyperbolic tangent is the input value (component-wise).\r\n *\r\n * @displayName ArcTanH\r\n * @in x - The value(s) to calculate the arc hyperbolic tangent of.\r\n * @out result - The result(s) of the arc hyperbolic tangent function in radians.\r\n * @templateArg T = float | vec2 | vec3 | vec4\r\n */\r\nvoid ATanHBlock(in T x, out T result)\r\n{\r\n    result = atanh(x);\r\n}\r\n\r\n#endif // TRIGONOMETRY_BLOCKS\r\n",
+                        "defaultValue": "",
+                        "flags": 227
+                    }
+                }
+            }
+        }
+    }
+}

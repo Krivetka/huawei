@@ -1,0 +1,113 @@
+{
+    "compatibility_info": {
+        "version": "2.0",
+        "type": "metafile"
+    },
+    "metainfo": {
+        "iid": "e64067f5-9d49-4d10-886a-70495e5b4df0",
+        "uri": "project://packages/studio-standard-shader-functions/shader-code/src/scalar-op/angles.ark.glsl",
+        "sha1": "d36ca9afd629d6ce30f2958740b19ab2b91a1060",
+        "spec": {
+            "$meta": {
+                "version": "1.0"
+            },
+            "$root": {
+                "$classId": "68089ffa-cefa-11ed-afa1-0242ac120002",
+                "$name": "ShaderCodeAsset",
+                "$instanceId": "0000d9cb-1765-847c-ba5d-c2e159286e91",
+                "$properties": {
+                    "Thumbnail": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "MediaType": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "application/vnd.ark.shader-code",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "IsDirty": {
+                        "$classId": "cd2fd49b-c6b0-14bd-5072-6f7065727479",
+                        "value": true,
+                        "defaultValue": true,
+                        "flags": 227
+                    },
+                    "GeneratorSourceUri": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "IsGenerated": {
+                        "$classId": "cd2fd49b-c6b0-14bd-5072-6f7065727479",
+                        "value": false,
+                        "defaultValue": false,
+                        "flags": 235
+                    },
+                    "Iid": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "e64067f5-9d49-4d10-886a-70495e5b4df0",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "Tooltip": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "IsBuiltIn": {
+                        "$classId": "cd2fd49b-c6b0-14bd-5072-6f7065727479",
+                        "value": false,
+                        "defaultValue": false,
+                        "flags": 235
+                    },
+                    "Size": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "Uri": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "project://packages/studio-standard-shader-functions/shader-code/src/scalar-op/angles.ark.glsl",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "Category": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "IsValid": {
+                        "$classId": "cd2fd49b-c6b0-14bd-5072-6f7065727479",
+                        "value": true,
+                        "defaultValue": true,
+                        "flags": 235
+                    },
+                    "Name": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "angles.ark.glsl",
+                        "defaultValue": "",
+                        "flags": 225
+                    },
+                    "ModifiedTimestamp": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "133756347809058049",
+                        "defaultValue": "",
+                        "flags": 235
+                    },
+                    "Code": {
+                        "$classId": "4c56efce-a00b-20a3-5072-6f7065727479",
+                        "value": "\r\n\r\n#ifndef ANGLE_VEC2_BLOCKS_H\r\n#define ANGLE_VEC2_BLOCKS_H\r\n\r\n// /******************************************************\r\n// * Angle functions on Vec2 Components\r\n// ******************************************************/\r\n\r\n/**\r\n * Converts a number or vector's components from radians to degrees.\r\n *\r\n * @displayName Radians To Degrees\r\n * @in x - The angle(s) in radians to convert.\r\n * @out result - The converted angle(s) in degrees.\r\n * @templateArg T = float | vec2 | vec3 | vec4\r\n */\r\nvoid DegreesBlock(in T x, out T outVec2)\r\n{\r\n    outVec2 = degrees(x);\r\n}\r\n\r\n/**\r\n * Converts a number or a vector's components from degrees to radians.\r\n *\r\n * @displayName Degrees To Radians\r\n * @in x - The angle(s) in degrees to convert.\r\n * @out result - The converted angle(s) in radians.\r\n * @templateArg T = float | vec2 | vec3 | vec4\r\n */\r\nvoid RadiansBlock(in T x, out T outVec2)\r\n{\r\n    outVec2 = radians(x);\r\n}\r\n\r\n#endif // ANGLE_VEC2_BLOCKS_H\r\n",
+                        "defaultValue": "",
+                        "flags": 227
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "compatibility_info": {
+        "version": "27.0",
+        "type": "projectsettings"
+    },
+    "project": {
+        "name": "huawei",
+        "appUid": "a7b44144-d1b3-4d68-a0ff-ca48a7d015ee",
+        "projectType": "CPLUSPLUS_CROSSPLATFORM_UI",
+        "defaultScene": "",
+        "startupUri": "project://assets/ui/default.ui",
+        "clearEnabled": 1,
+        "clearColor": "00000000",
+        "outputColorSpace": "Default",
+        "templatePackageName": "@PLUGIN_NAME_LOWER@package",
+        "defaultFontUri": "project://assets/fonts/SegoeUI.ttf",
+        "defaultPaletteUri": "",
+        "sdkVersion": "1.0.1136",
+        "cameraForwardKey": 87,
+        "cameraBackwardKey": 83,
+        "cameraLeftKey": 65,
+        "cameraRightKey": 68,
+        "cameraUpwardKey": 82,
+        "cameraDownwardKey": 70,
+        "cameraSpeedFactor": 3,
+        "cameraCurrentSpeed": 1,
+        "defaultLocale": "en",
+        "platforms": [
+            "windows"
+        ],
+        "localizations": [],
+        "shaderIncludePaths": [],
+        "defaultShaderGraphIncludePaths": [
+            "project://assets/shader_blocks/"
+        ]
+    }
+}

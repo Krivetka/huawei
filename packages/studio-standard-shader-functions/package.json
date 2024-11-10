@@ -1,0 +1,15 @@
+{
+    "name": "studio-standard-shader-functions",
+    "version": "1.0",
+    "icon": {
+        "uri":"Lume_Icon.svg",
+        "rounded":false
+    },
+    "author": "Lume",
+    "images": [],
+    "description": "A package containing a standard set of basic math functions for shader code.",
+    "plugins": [
+        "shader-code/plugin.json"
+    ],
+    "editorplugins": []
+}
